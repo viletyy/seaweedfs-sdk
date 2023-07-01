@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"code.gitlink.org.cn/yystopf/seaweedfs-sdk.git/seaweedfs"
+	"github.com/viletyy/seaweedfs-sdk/seaweedfs"
 )
 
 func main() {
