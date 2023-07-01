@@ -24,7 +24,7 @@ func (c *Client) GetDirAssign() (*DirAssign, error) {
 
 type File struct {
 	Name string `json:"name"`
-	Size string `json:"size"`
+	Size int64  `json:"size"`
 	ETag string `json:"eTag"`
 }
 
